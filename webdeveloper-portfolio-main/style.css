@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: #fd6e0A;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+   
+}
+nav a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #474747;
+}
+.btn-primary{
+    background-color: #fd6e0A;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
